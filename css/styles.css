@@ -114,7 +114,7 @@ p{
   .header-link-nav:focus {
     color: var(--accent-color);
   }
-
+  
   .header-logo {
     font-size: var(--font-size-26px);
     line-height: 30.52px;
@@ -205,6 +205,7 @@ p{
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     cursor: pointer;
+    /* cursor: no-drop; */
   }
 
   /* =========== table with txt =========== */
@@ -413,7 +414,6 @@ p{
     border: 0;
     background-color: var(--light-color);
     padding: 6px 22px;
-    cursor: pointer;
   }
 
   .portfolio-button-item:hover,
@@ -422,6 +422,8 @@ p{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     color: var(--white-color);
     background-color: var(--accent-color);
+    /* cursor: pointer; */
+    cursor: no-drop;
   }
 
   /* =========== portfolio main =========== */
@@ -446,7 +448,7 @@ p{
   .portfolio-content-item:hover,
   .portfolio-content-item:focus{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
+    cursor: no-drop;
   }
 
   .portfolio-item-link h4 {
@@ -573,4 +575,9 @@ p{
   .footer-svg:hover,
   .footer-svg:active{
     background-color: var(--accent-color) ;
+  }
+
+/* set no-drop on this where is no link */
+  [href="#"] {
+  cursor: no-drop;
   }
