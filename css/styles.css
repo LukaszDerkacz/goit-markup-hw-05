@@ -502,6 +502,11 @@ p{
     cursor: no-drop;
   }
 
+  .portfolio-item-link { 
+    width: 370px; 
+    height: 294px;
+  }
+
   .portfolio-item-link h4 {
     color: var(--color-primary);
     font-size: var(--font-size-18px);
