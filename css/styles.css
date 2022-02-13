@@ -279,15 +279,44 @@ p{
 
   /* =========== task description =========== */
   .task-description {
-    text-align: center;
+    /* text-align: center; */
     background-color: var(--white-color);
     padding: 94px 0px 94px;
   }
 
-  .task-description-content{
+  .task-description-content {
     display: flex;
     gap: 30px;
     justify-content: center;
+  }
+
+  .task-description-item {
+    position: relative;
+    width: 370px;
+    height: 294px;
+  }
+
+  .label {
+    position: absolute;
+    right: 0;
+    margin: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    color: var(--white-color);
+    background-color: rgba(47, 48, 58, 0.8);
+    font-family: var(--font-family-primary);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    letter-spacing: var(--spacing-percent-3);
+    text-transform: uppercase;
+
+    
+
   }
 
   /* =========== team =========== */
