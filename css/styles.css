@@ -594,7 +594,7 @@ p{
     left: 50%;
     transform: translate(-50%,-50%);
     width: 528px;
-    min-height: 581px;
+    height: 521px;
     background-color: var(--white-color);
   }
 
